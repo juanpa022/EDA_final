@@ -4,7 +4,7 @@ Proyecto en C++ que busca, entre miles de vectores, cuáles son los más parecid
 
 ## ¿Qué hace el programa?
 
-`main.cpp` corre una demo que:
+`main.cpp` :
 
 1. Genera datos aleatorios (10 000 vectores) y consultas (200 vectores).
 2. Calcula la respuesta "correcta" comparando fuerza bruta (revisa todo, es lento pero exacto).
@@ -70,4 +70,4 @@ dim=100  n_data=10000  n_queries=200  k=10
   query : 5.198 ms  |  Recall@10 = 0.420
 ```
 
-Interpretación: HNSW es más lento de construir pero más preciso; IVF+HNSW es mucho más rápido buscando, a cambio de menor precisión.
+
